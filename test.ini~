@@ -1,0 +1,21 @@
+[rig]
+config = left,middle,right	;          
+left = 6              		; camera ids
+middle = 7	      		;
+right = 8	      		; 
+
+[master]
+camera = left			;   select the master camera
+gain = 999			;
+white_balance = 999		;   999 is for auto mode
+exposure = 999			;   put some other value to set this property
+
+width = 640			;
+height = 360			;
+frame_rate = 30			;
+
+[camera config]
+left = Bob Smith		; locations of camera params
+middle = true        		; 
+right = bob@smith.com  		; 
+
